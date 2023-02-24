@@ -5,7 +5,7 @@
 replicaCount: 3
 
 image:
-  repository: demoazacr7710.azurecr.io/springboot-curd-k8s:1.0
+  repository: demoazacr7710.azurecr.io/springboot-curd-k8s:latest
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
